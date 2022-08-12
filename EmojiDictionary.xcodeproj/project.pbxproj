@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		995C41CD28A47891007CE472 /* EmojiDictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C41CC28A47891007CE472 /* EmojiDictionaryApp.swift */; };
-		995C41CF28A47891007CE472 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C41CE28A47891007CE472 /* ContentView.swift */; };
+		995C41CF28A47891007CE472 /* EmojiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C41CE28A47891007CE472 /* EmojiListView.swift */; };
 		995C41D128A47893007CE472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995C41D028A47893007CE472 /* Assets.xcassets */; };
 		995C41D428A47893007CE472 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995C41D328A47893007CE472 /* Preview Assets.xcassets */; };
+		995C41DB28A567C2007CE472 /* EmojiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C41DA28A567C2007CE472 /* EmojiDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		995C41C928A47891007CE472 /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		995C41CC28A47891007CE472 /* EmojiDictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDictionaryApp.swift; sourceTree = "<group>"; };
-		995C41CE28A47891007CE472 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		995C41CE28A47891007CE472 /* EmojiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiListView.swift; sourceTree = "<group>"; };
 		995C41D028A47893007CE472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		995C41D328A47893007CE472 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		995C41DA28A567C2007CE472 /* EmojiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				995C41CC28A47891007CE472 /* EmojiDictionaryApp.swift */,
-				995C41CE28A47891007CE472 /* ContentView.swift */,
+				995C41CE28A47891007CE472 /* EmojiListView.swift */,
+				995C41DA28A567C2007CE472 /* EmojiDetailView.swift */,
 				995C41D028A47893007CE472 /* Assets.xcassets */,
 				995C41D228A47893007CE472 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				995C41CF28A47891007CE472 /* ContentView.swift in Sources */,
+				995C41CF28A47891007CE472 /* EmojiListView.swift in Sources */,
+				995C41DB28A567C2007CE472 /* EmojiDetailView.swift in Sources */,
 				995C41CD28A47891007CE472 /* EmojiDictionaryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
