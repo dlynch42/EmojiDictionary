@@ -24,7 +24,7 @@ struct EmojiListView: View {
             List(emojis) { emoji in
                 NavigationLink(destination:
                                 EmojiDetailView(emoji: emoji)) {
-                    Text("\(emoji.symbol): \(emoji.definition)")
+                    Text("\(emoji.symbol)")
                 }
             }
             .navigationTitle("Emoji Dictionary: \(emojis.count)")
